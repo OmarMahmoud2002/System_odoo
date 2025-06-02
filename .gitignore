@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Local development
+.env
+*.log
+.cache/
+.local/
+
+# System files
+.DS_Store
+.bash_logout
+.bashrc
+.profile
+
+# Custom scripts
+fix_hms_module.sh
+fix_views.sh
+update_hms.py
+upgrade_hms.sh 
