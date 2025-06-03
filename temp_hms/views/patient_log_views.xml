@@ -2,7 +2,7 @@
 <odoo>
 
     <!-- list View -->
-    <record id="patient_list_view" model="ir.ui.view">
+    <record id="patient_log_list_view" model="ir.ui.view">
         <field name="name">hms.patient.list</field>
         <field name="model">hms.patient</field>
         <field name="arch" type="xml">
@@ -17,7 +17,7 @@
     </record>
 
     <!-- Form View -->
-    <record id="patient_form_view" model="ir.ui.view">
+    <record id="patient_log_form_view" model="ir.ui.view">
         <field name="name">hms.patient.form</field>
         <field name="model">hms.patient</field>
         <field name="arch" type="xml">

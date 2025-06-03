@@ -14,6 +14,7 @@
     "version": "1.0",
     "depends": ["base", "contacts"],
     "data": [
+        "security/hms_security.xml",
         "security/ir.model.access.csv",
         "views/hms_menus.xml",
         "views/patient_views.xml",

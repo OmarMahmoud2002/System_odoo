@@ -41,7 +41,7 @@
                             <field name="email"/>
                             <field name="department_id" options="{'no_create': True, 'no_open': True}"/>
                             <field name="department_capacity"/>
-                            <field name="doctor_ids" widget="many2many_tags" invisible="{'readonly': [('department_id', '=', False)]}"/>
+                            <field name="doctor_ids" widget="many2many_tags" invisible="{'readonly': [('department_id', '=', False)]}" groups="hms.group_hms_manager"/>
                             <field name="created_by" readonly="1"/>
                             <field name="create_date" readonly="1"/>
                         </group>
